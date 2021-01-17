@@ -1,40 +1,12 @@
-http://localhost:8080/addEmployee
-
 {
-    "emp_id": 3,
     "name": "aravind",
     "designation": "A4 Analyst",
     "reportingTo": "Ayushi Jain",
-    "userType": "Admin",
+    "userType":"Admin",
     "address": "airoli navimumbai",
     "gender": "male",
-    "yearsOfService": "0",
-    "bankAccount": 123456789,
+    "yearsOfService": 0,
+    "bankAccount": "123456789",
     "ctc": 400000,
-    "leaves": 24,
-    "empLoginDetails": {
-        "emp_id": 3,
-        "password": "abc",
-        "role": "Admin"
-    },
-    "attendances": [
-        {
-            "attendanceId": 4,
-            "day": 9,
-            "month": 9,
-            "year": 2020,
-            "status": "present"
-        }
-    ],
-    "salary": {
-        "salary_id": 3,
-        "month": 9,
-        "year": 2020,
-        "grossSalary": 33333.0,
-        "lop": 7377.704,
-        "otherTaxes": 1666.65,
-        "netSalary": 27666.39,
-        "totalSalary": 20288.688,
-        "pf": 3999.96
-    }
+    "leaves": 24
 }
